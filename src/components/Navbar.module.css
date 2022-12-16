@@ -1,0 +1,48 @@
+.navbar {
+    height: 10vh;
+    font-family: "Bitter", Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.navbar a:hover {
+    opacity: 0.6;
+}
+
+.active{
+    opacity: 1;
+    font-weight: 600;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+#name{
+    justify-self: start;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#name::after {
+    content: "";
+    background-color: #ff7300;
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+    width: 100%;
+    height: 3px;
+}
