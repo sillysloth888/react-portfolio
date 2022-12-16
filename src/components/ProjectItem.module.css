@@ -1,0 +1,40 @@
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-container {
+  min-width: 8rem; 
+  min-height: 5rem;
+  width: 32rem;
+  height: 20rem;
+  padding: 1rem 0.2rem;
+}
+
+.item h2 {
+  width: fit-content;
+  position: relative;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+  background-color: var(--dark-bg-color);
+  box-shadow: 0.4rem 0.4rem var(--text-accent-color);
+  transition-property: transform, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: translate(-0.4rem, -0.4rem);
+  box-shadow: 0.8rem 0.8rem var(--text-accent-color);
+}
+
+.item p {
+  opacity: 70%;
+  font-style: italic;
+}
