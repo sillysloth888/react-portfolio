@@ -21,7 +21,7 @@ const HappinessStory = () => {
     timeline: "3 weeks"
   }
 
-  // useScrollToTop()
+  useScrollToTop()
   return (
   <div>
     <ProjectBanner imgSrc={heroImage} />
