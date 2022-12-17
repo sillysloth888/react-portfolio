@@ -21,7 +21,7 @@ const HappinessStory = () => {
     timeline: "3 weeks"
   }
 
-  useScrollToTop()
+  // useScrollToTop()
   return (
   <div>
     <ProjectBanner imgSrc={heroImage} />
@@ -114,16 +114,16 @@ const HappinessStory = () => {
             </div>
           </div>
 
-          <p>Fortunately, we had made extensive use of flexboxes, which made our lives a lot easier. The bulk of the changes could be accomplished with a few simple media queries that switched css from flex-direction: row to flex-direction: column.</p>
+          <p>Fortunately, we had made extensive use of flexboxes, which made our lives a lot easier. The bulk of the changes could be accomplished with a few simple media queries that switched the CSS from flex-direction: row to flex-direction: column.</p>
 
         </div>
         <div className="project-section">
           <h2 class="small-section-title">reflection</h2>
           <h2 class="big-section-title">Takeaways</h2>
-          <p>This was one of the most fulfilling projects I've ever completed, I think in large part because it was actually published for the wider Brown community to read. It was an amazing feeling to open up the BDH website and the site I had helped create on the front page.</p>
+          <p>This was one of the most fulfilling projects I've ever completed, I think in large part because it was actually published for the wider Brown community to read. It was an amazing feeling to open up the BDH website and the site I had helped create on the front page!</p>
               <ol>
-                  <li><b>Even simple interactions can create powerful storytelling.</b> Ultimately, the only interaction in the article came from the amount you had scrolled. Yet even a relatively simple change make the article so much power emotionally resonant than if had been entirely static, and least in my opinion.</li>
-                  <li><b>The power of simple Javascript libraries.</b> My instinct is often to go to the most powerful framework first to accomplish a task (i.e. React). However, due to the BDH's infrastructure, we had to use vanilla Javascript and small libraries that could be easily imported. But I never felt particularly limited by this constraint—if anything, I felt like it pushed me to be more creative in my implementation choices. </li>
+                  <li><b>Even simple interactions can create powerful storytelling.</b> Ultimately, the only interaction in the article comes from the amount you've scrolled. Yet even relatively simple dynamic elements like background and images transitions makes article so much more emotionally resonant than if it had been entirely static, at least in my opinion.</li>
+                  <li><b>Don't underestimate simple Javascript libraries.</b> My instinct is often to immediately go to the most powerful framework to accomplish a task (i.e. React). However, due to the BDH's infrastructure, we could only use vanilla Javascript and small libraries that could be easily imported. But I never felt particularly limited by this constraint—if anything, I felt like it pushed me to be more creative in my implementation choices. </li>
               </ol>
               <SeeMoreButton />
         </div>

@@ -9,7 +9,9 @@ const About = () => (
     <div className={styles["bio-wrapper"]}>
       <h1>about me.</h1>
 
-      <p> I'm a senior studying computer science and biology at Brown. I love both UI design and front-end development, and hope to work in a role that will allow me to combine both positions. Currently, I get to make cool things as part of <a href="https://www.browndailyherald.com/">Brown Daily Herald's</a> Data Desk. I also teach about ethics in computational biology as part of <a href="http://ethics.cs.brown.edu/">Socially Responsible Computing @ Brown</a></p>. 
+      <p> I'm a senior studying computer science at Brown. I'm deeply passionate about how I can use web design to create experiences that inform and enchant us. I love both UI design and frontend development, and hope to work in a position in the feature that will allow me to combine both roles.</p>
+        
+      <p>Currently, I get to make cool things as part of <a href="https://www.browndailyherald.com/">Brown Daily Herald's</a> Data Desk. I also teach about ethics as part of <a href="http://ethics.cs.brown.edu/">Socially Responsible Computing @ Brown</a>.</p> 
     </div>
   </div>
   

@@ -17,7 +17,7 @@ const AlbumApp = () => {
     timeline: "2 weeks"
   }
 
-  // useScrollToTop()
+  useScrollToTop()
   return (
     <div>
       <ProjectBanner imgSrc={bannerImg}/>
@@ -103,7 +103,7 @@ const AlbumApp = () => {
         <div className="project-section">
             <h3 className="small-section-title">usabililty</h3>
             <h2 className="big-section-title">Considering Design Principles</h2>
-            <p>Although Material React UI helped me style the components themselves, considering the overall hierar of my interface was still crucial. I considered the follwoing usability principles in my project</p>
+            <p>Although Material React UI helped me style the components themselves, considering the overall hierarchy of my interface was still crucial. I considered the following usability principles in my project</p>
             <p>Visual hierarchy:</p>
             <ul>
               <li>"Albums" and "Queue" headers clearly delineate each respective section</li>
@@ -123,9 +123,9 @@ const AlbumApp = () => {
         <div className="project-section">
           <h2 class="small-section-title">reflection</h2>
           <h2 class="big-section-title">Takeaways</h2>
-          <p>I think this app turned out both loking and feeling great. I think the fact that I could actually envision me and my friends making use of an app or site like this if were built out provided extra motivation. Here were my main takeaways:</p>
+          <p>I think this app turned out both loking and feeling great. I think the fact that I could actually envision me and my friends making use of an app or site like this provided extra motivation to build it as well as I could. Here were my main takeaways:</p>
               <ol>
-                  <li><b>Make use of component libraries.</b> The MUI component library is really good, both its documentation and the components are great. I love custom styling my interface elements as much as anyone else, but using MUI in this project freed up time to focus on the app architecture and program logic</li>
+                  <li><b>Make use of component libraries.</b> The MUI component library is great, both with regards to the documentation and the components themselves. I love custom styling my interface elements as much as anyone else, but using MUI in this project freed me up to dedicate my priary focus on the app architecture and program logic.</li>
                   <li><b>You don't need to do everything at once!</b> I spend a lot of time trying to figure out how to extract data from the API directly in the React app, and never ended up being able to figure it out. Sometimes the smartest move is to shelve certain features to implement in future projects.</li>
               </ol>
               <SeeMoreButton />

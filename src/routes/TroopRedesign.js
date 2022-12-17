@@ -32,7 +32,7 @@ const TroopRedesign = () => {
         <HeaderSection headerInfo={headerInfo} />
         <div className="project-section">
           <h2 className="small-section-title">problem</h2>
-          <h2 className="big-section-title">Troop's Original Website is Unusable</h2>
+          <h2 className="big-section-title">Troop's Original Website has Poor Usability</h2>
           <p>Troop is a website in Providence, RI which Google describes as a <i>"chill hangout with funky decor for eclectic street food fare & cheekily named craft cocktails."</i></p>
 
           <p>If you look up pictures of the restaurant and bar online, you'll see a ton of care was put into the Troop's interior design, with grafitti and other artwork lining the walls, with cool light fixtures hanging from the ceiling.</p>
@@ -47,9 +47,9 @@ const TroopRedesign = () => {
 
           <p>The same cannot be said for its website. The oversaturated orange color scheme and floating vertical layout is aesthetically unpleasant, and the site faces a laundry list of usability issues that make it difficult to navigate.</p>
 
-          <p>Ultimately, the design of Troop's website creates a <b>bad impression</b> of the restaurant, and its <b>poor usability</b> could frustrate and <b>drive away potential customers</b> who might have otherwise reserved a table or attended an event.</p>
+          <p>Ultimately, the <b>poor usability</b> of Troop's website creates a <b>bad impression</b> and could frustrate and <b>drive away potential customers</b> who might have otherwise reserved a table.</p>
 
-          <p>So, I decided to <b>redesign</b> Troop's homepage to make it <b>usable and responsive across device sizes</b>, bringing the website in line with the amount of care that was put into the restaurant's interior. In the end, I created an improved design language that could be expanded across the site.</p>
+          <p>So, I decided to <b>redesign</b> Troop's homepage to make it <b>more usable and responsive across device sizes</b>, bringing the website in line with the amount of care that was put into the restaurant's interior. In the end, I created an improved design language that could be expanded across the site.</p>
         </div>
         <div className="project-section">
           <h2 className="small-section-title">research</h2>
@@ -76,7 +76,7 @@ const TroopRedesign = () => {
             frame={false}
           />
           <div className="tip-block text-block">
-            <p><b>Tip:</b> Don't get attached to your wireframes! Embrace their messiness, and discard them early and often as you iterate through multiple designs. I spent way too much time crafting my initial wireframes, only totally change their layout later.</p>
+            <p><b>Tip:</b> Don't get attached to your wireframes! Embrace their messiness, and discard them early and often as you iterate through multiple designs. I spent way too much time crafting my initial wireframes, only to totally change their layout later.</p>
           </div>
           <ImageSection 
             data={[{id: 2, path: tabletWf}, {id: 3, path: mobileWf}]}
@@ -100,7 +100,7 @@ const TroopRedesign = () => {
             separate={false}
             frame={false}
           />
-          <p>I took inspiration from the restaurant's decor, incorporating the rich blues found on Troop's walls. Otherwise, I opted to keep the visual design fairly simple to keep the focus on the site's <b>core tasks</b>, such as reserving a table, which <b>drive business</b>.</p>
+          <p>I took inspiration from the restaurant's decor, incorporating the rich blues found on Troop's walls. Otherwise, I opted to keep the visual design fairly simple to keep the <b>focus</b> on the site's <b>core business-driving tasks</b>, such as reserving a table.</p>
         </div>
         <div className="project-section">
           <h2 className="small-section-title">high-fidelity prototyping</h2>
@@ -157,11 +157,11 @@ const TroopRedesign = () => {
         </div>
         <div className="project-section">
           <h2 class="small-section-title">reflection</h2>
-          <h2 class="big-section-title">Reflections</h2>
-          <p>Here were my main lessons learned from redesigning Troop's website.</p>
+          <h2 class="big-section-title">Major Takeaways</h2>
+          <p>Redesigning Troop's website taught me important lessons about design and web development.</p>
               <ol>
-                  <li><b>Taking away info is as important as adding it.</b> Many of the improvements to the interface were based around removing, rather than adding additional information, for example, by distilling down the navbar options. I think the end result is a  sleeker interface that is much less confusing to use.</li>
-                  <li><b>There are many time sucks in interface design.</b> I spent too long on UI decisions that were ultimately inconsequential, such as font type or the specific shade of blue I should use for the background. In the end, many of these decisions only marginally impacted the aethestic impact of the site, and had no bearing on its usability whatsover. I learned from this project the importance of not letting these choices derail your project.</li>
+                  <li><b>Taking away info is as important as adding it.</b> Many of the improvements to the interface were based around removing, rather than adding additional information (for example, by distilling down the navbar options). I think the end result is a  sleeker interface that is much less confusing to use.</li>
+                  <li><b>There are many time sucks in interface design.</b> I spent too long on UI decisions that were ultimately inconsequential, such as font type or the specific shade of blue I should use for the background. In the end, many of these decisions only marginally impacted the aethestic impact of the site, and had no bearing whatsover on its usability. These choices can easily derail your project, so you have to ruthlessly prioritize.</li>
               </ol>
               <SeeMoreButton />
         </div>
